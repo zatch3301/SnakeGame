@@ -1,2 +1,7 @@
 # Snake-Game
-Snake game using javascript
+Simple Snake game using javascript and html
+
+
+You can check it on
+https://yremy0w2z6dqxntf4xiwkw-on.drv.tw/www.halfexploit.com/ 
+
