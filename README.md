@@ -1,6 +1,6 @@
 # SnakeGame
 
-A basic game of Snake game built with [Vanilla Javascript](https://github.com/topics/javascript) only.
+A basic game of Snake game built with [Vanilla Javascript](https://github.com/topics/javascript) only.<br/>
  You can play the game [here](https://zatch3301.github.io/SnakeGame/).
 
 ![snake game](snake.gif)
