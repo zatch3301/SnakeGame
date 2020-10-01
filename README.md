@@ -9,7 +9,7 @@ The goal of Snake is to achieve the highest score possible without colliding int
 This game uses the arrow keys on the keyboard to function.
 
 ## Screenshot
-![Screenshot](background.jpg)
+![Screenshot](screenshot.JPG)
 
 Happy gaming! :)
 
