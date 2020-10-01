@@ -1,13 +1,23 @@
-
-
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Sanke</title>
+	<title>Snake</title>
+	<style>
+		body{
+			background-image: url(background.jpg);
+			margin: 0px;
+		}
+		#container{
+			margin-top: 5%;
+			margin-left: 10%;
+		}
+	</style>
 </head>
 <body>
- <canvas class="canvas" width="500" height="500" style="background-color: #3e3e3e"></canvas>
- <h1 class="score"><b></b></h1>
+ <div id="container">	
+ 	<canvas class="canvas" width="500" height="500" style="background-color: #3e3e3e"></canvas>
+ 	<h1>Score : </h1><h1 class="score"><b></b></h1>
+ </div>
 </body>
 <script type="text/javascript" src="fruit.js"></script>
 <script type="text/javascript" src="snake.js"></script>
