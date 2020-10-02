@@ -25,7 +25,7 @@ This game uses the arrow keys on the keyboard to control the Snake.
 
 
 ## Screenshot
-![Screenshot](screenshot.JPG)
+![Screenshot](snake.PNG)
 
 Happy gaming! :)
 
