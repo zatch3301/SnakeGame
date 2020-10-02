@@ -12,29 +12,26 @@ var start = 0;
   fruit.pickLocation();
 
   window.setInterval(() => {
-	if(start){
-    ctx.clearRect(0, 0, canvas.width, canvas.height);
-    fruit.draw();
-    snake.update();
-    snake.draw();
+    if (start) {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      fruit.draw();
+      snake.update();
+      snake.draw();
 
-    if (snake.eat(fruit)) {
-      fruit.pickLocation();
+      if (snake.eat(fruit)) {
+        fruit.pickLocation();
+      }
+
+      snake.checkCollision();
+      document.querySelector(".score").innerText = snake.total;
+    } else {
+      document.querySelector(".score").innerText = "Press anything to start";
     }
+  }, 50);
+})();
 
-    snake.checkCollision();
-    document.querySelector('.score')
-      .innerText = snake.total;
-
-	}else{
-		document.querySelector('.score')
-      .innerText = "Press anything to start";
-	}}, 50);
-}());
-
-window.addEventListener('keydown', ((evt) => {
+window.addEventListener("keydown", (evt) => {
   start = 1;
-  const direction = evt.key.replace('Arrow', '');
+  const direction = evt.key.replace("Arrow", "");
   snake.changeDirection(direction);
-}));
-  
+});
