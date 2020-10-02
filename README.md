@@ -1,13 +1,13 @@
 # SnakeGame
+[![](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)]()
+[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
+[![](https://img.shields.io/badge/download-releases-brightgreen.svg)](https://github.com/zatch3301/SnakeGame)
 
 A basic game of Snake game built with [Vanilla Javascript](https://github.com/topics/javascript) only.<br/>
  You can play the game [here](https://zatch3301.github.io/SnakeGame/).
 
 ![snake game](snake.gif)
 
-[![](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)]()
-[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
-[![](https://img.shields.io/badge/download-releases-brightgreen.svg)](https://github.com/zatch3301/SnakeGame)
 
 ## Objective
 Your goal is simple, you have to achieve the maximum length for your snake.<br/>
