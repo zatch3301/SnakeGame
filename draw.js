@@ -23,9 +23,9 @@ var start = 0;
       }
 
       snake.checkCollision();
-      document.querySelector(".score").innerText = snake.total;
+      document.querySelector(".current-score-value").innerText = snake.total;
     } else {
-      document.querySelector(".score").innerText = "Press anything to start";
+      document.querySelector(".current-score-value").innerText = "Press anything to start";
     }
   }, 50);
 })();

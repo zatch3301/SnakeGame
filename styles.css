@@ -17,6 +17,7 @@ Global Styles
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-size: 14px;
 }
 
 /*
@@ -26,17 +27,63 @@ Container
 */
 
 body {
-  background-image: url(background.jpg);
+  background: url(background.jpg) no-repeat center center fixed;
   font-family: "Open Sans", sans-serif;
   letter-spacing: 0.1rem;
 }
 
-#container {
-  text-align: center;
-  margin-top: 60px;
+.container {
+  display: flex;
+  min-height: 99vh;
 }
 
-#container > h1 {
+.canvas-container {
+  flex-basis: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*
+=============== 
+Inside container
+===============
+*/
+
+.canvas {
+  background-color: #3e3e3e;
+}
+hr {
+  border: none;
+  min-height: 5px;
+  background: #0e0e0e;
+  margin: 1rem 0;
+}
+
+.score-container {
+  flex-basis: 30%;
+  display: block;
+  background: #404d07;
   padding: 15px;
-  text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em #222;
+  color: white;
+}
+
+.score-text {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.current-score-value {
+  
+}
+
+.high-score-value::before {
+  content: "Highest Score : "
+}
+
+
+/* Development purpose */
+* {
+  /* border: 1px solid red; */
 }
