@@ -34,7 +34,7 @@ body {
 
 .container {
   display: flex;
-  min-height: 99vh;
+  min-height: 100vh;
 }
 
 .canvas-container {
