@@ -66,6 +66,14 @@ function Snake() {
   this.eat = function (fruit) {
     if (this.x === fruit.x && this.y === fruit.y) {
       this.total++;
+      /*
+       * Check if current score is higher than current highscore
+       * If so, set the highscore to the new value and update the UI
+       */
+      if (this.total > localStorage.getItem("highscore")) {
+        localStorage.setItem("highscore", this.total);
+        document.querySelector(".high-score-value").innerHTML = localStorage.getItem("highscore");
+      }
       return true;
     }
 
